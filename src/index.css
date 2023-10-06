@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    height: 5vw;
+    width: 100vw;
+    background-color: rgb(39, 62, 83);
+    color: white;
+    display: flex;
+}
+
+.navigation h2 {
+    margin-top: 1vw;
+    margin-left: 20vw;
+}
+
+.imageBg {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.imageBg-Div {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 1vw;
+    height: 26vw;
+    width: 20vw;
+
+}
+
+.imageBg-Div img {
+    cursor: pointer;
+    border-radius: 1vw;
+    width: 18vw;
+    height: 20vw;
+}
+
+.imageBg-Div h3 {
+    color: #000;
+    margin-top: 10px;
+}
+
+
+
+.detailImg {
+    box-shadow: 700px 10px 250px 10px black inset;
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    padding: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+.detailImg1 {
+    width: 100vw;
+    position: absolute;
+    height: 50vw;
+    color: #fff;
+    object-fit: cover;
+}
+
+.descriptionImage {
+    padding-top: 100px;
+    height: 50vw;
+    width: 40vw;
+}
+
+.descriptionImage button {
+    margin-top: 40px;
+    border-radius: 8px;
+}
